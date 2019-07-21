@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #000;
+  }
+  /* Galeria */
+  .gallery {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 90%;
+    max-height: 28vw;
+    overflow: hidden;
+  }
+  .gallery__stream {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 100%;
+  }
+  .gallery__item {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: 1s all ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+  }
+  .gallery__item:nth-child(1) {
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%) scale(.8);
+  }
+  .gallery__item:nth-child(2) {
+    left: 0;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  .gallery__item:nth-child(3) {
+    left: 50%;
+    z-index: 4;
+    transform: translateX(-50%) scale(1);
+  }
+  .gallery__item:nth-child(4) {
+    left: 100%;
+    z-index: 2;
+    transform: translateX(-50%) scale(.8);
+  }
+  .gallery__item:nth-child(n+5) {
+    left: 100%;
+    z-index: 1;
+    transform: scale(.8);
+  }
+  .bg-1 {
+    background-image: url(../img/Zuckuss.jpg);
+  }
+  .bg-2 {
+    background-image: url(../img/YuthuraBan.png);
+  }
+  .bg-3 {
+    background-image: url(../img/4-lom.jpg);
+  }
+  .bg-4 {
+    background-image: url(../img/Aayla_TCW.png);
+  }
+  .bg-5 {
+    background-image: url(../img/AdiGallia.jpeg);
+  }
+  .bg-6 {
+    background-image: url(../img/AgenKolar.jfif);
+  }
+  .bg-7 {
+    background-image: url(../img/AshokaTano.jpg);
+  }
+  .bg-8{
+    background-image: url(../img/AlmirantFirmusPiett.png);
+  }
+  .bg-9{
+    background-image: url(../img/Anakin.png);
+  }
+  .bg-10{
+    background-image: url(../img/ArcaJeth.jpg);
+  }
+  .bg-11{
+    background-image: url(../img/Atris.jfif);
+  }
+  .bg-12{
+    background-image: url(../img/BailOrgana.jpg);
+  }
+  .bg-13{ background-image: url(../img/Barriss-Offee.jpg);}
+  .bg-14{ background-image: url(../img/BastilaShan.jpg);}
+  .bg-15{ background-image: url(../img/BenSky.jpg);}
+  .bg-16{ background-image: url(../img/BenSolo.jpg);}
+  .bg-17{ background-image: url(../img/BibFortuna.jpeg);}
+  .bg-18{ background-image: url(../img/Biggs.jpg);}
+  .bg-19{ background-image: url(../img/Bossk-in-Star-Wars-.jpg);}
+  .bg-20{ background-image: url(../img/Captain-Tarpals-1-1536x864-177638224698.jpg);}
+  .bg-21{ background-image: url(../img/chefeNass.jpeg);}
+  .bg-22{ background-image: url(../img/Cilgal.jpg);}
+  .bg-23{ background-image: url(../img/ColemanTrebor.jpg);}
+  .bg-24{ background-image: url(../img/Count-Dooku.jpeg);}
+  .bg-25{ background-image: url(../img/cadeSky.jpg);}
+  .bg-26{ background-image: url(../img/capitaPhasma.jpg);}
+  .bg-27{ background-image: url(../img/capitaoAntiles.jpg);}
+  .bg-28{ background-image: url(../img/capitaorex.jpg);}
+  .bg-29{ background-image: url(../img/chancelerValorum.jpg);}
+  .bg-30{ background-image: url(../img/darthAndeddu.jpg);}
+  .bg-31{ background-image: url(../img/darthBane.jpeg);}
+  .bg-32{ background-image: url(../img/darthNihilus.jpg);}
+  .bg-33{ background-image: url(../img/darthRevan.jpg);}
+  .bg-34{ background-image: url(../img/darthcgnus.jpg);}
+  .bg-35{ background-image: url(../img/darthmaul.jfif);}
+  .bg-36{ background-image: url(../img/darthplagueis.jpeg);}
+  .bg-37{ background-image: url(../img/darthrivan.jpg);}
+  .bg-38{ background-image: url(../img/darthRuin.jpg);}
+  .bg-39{ background-image: url(../img/darthSidious.jpg);}
+  .bg-40{ background-image: url(../img/darthTalon.jpg);}
+  .bg-41{ background-image: url(../img/darthcgnus.jpg);}
+  .bg-42{ background-image: url(../img/Tahiri_img03.jpg);}
+  .bg-43{ background-image: url(../img/Dengar.jpg);}
+  .bg-44{ background-image: url(../img/gardulla.jpg);}
+  .bg-45{ background-image: url(../img/DelpaBillaba.jpg);}
+  .bg-46{ background-image: url(../img/c-3po-see-threepio_68fe125c.jpeg);}
+  .bg-47{ background-image: url(../img/Galen-Marek-640x360.jpg);}
+  .bg-48{ background-image: url(../img/general-veers.jpg);}
+  .bg-49{ background-image: url(../img/grandMoffTarkin.jfif);}
+  .bg-50{ background-image: url(../img/Gredo.jpg);}
+  .bg-51{ background-image: url(../img/generalArmitage.png);}
+  .bg-52{ background-image: url(../img/genrealgriveous.png);}
+  .bg-53{ background-image: url(../img/grandMoffTarkin.jfif);}
+  .bg-54{ background-image: url(../img/ig-88b.png);}
+  .bg-55{ background-image: url(../img/ikrit.jpg);}
+  .bg-56{ background-image: url(../img/jadenKorr.jpg);}
+  .bg-57{ background-image: url(../img/sorabulk.jpg);}
+  .bg-58{ background-image: url(../img/tanYuster.jpg);}
+  .bg-59{ background-image: url(../img/tenelKaDjo.jpg);}
+  .bg-60{ background-image: url(../img/TC-14_Disney.png);}
+  .bg-61{ background-image: url(../img/Tahiri_img03.jpg);}
+  .bg-62{ background-image: url(../img/Tarados_Gon1.jpg);}
+  .bg-63{ background-image: url(../img/Tarfful.png);}
+  .bg-63{ background-image: url(../img/tyvokka.png);}
+  .bg-64{ background-image: url(../img/Vandar\ Tokare1.jpg);}
+  .bg-65{ background-image: url(../img/Vergere.jpg);}
+  .bg-66{ background-image: url(../img/rei.jpeg);}
+  .bg-67{ background-image: url(../img/Voolvif2.jpg);}
+  .bg-68{ background-image: url(../img/1-wat-tambor-bio-1_copy_279d4f2b.webp);}
+  .bg-69{ background-image: url(../img/databank_watto_01_169_ecd563f1.jpeg);}
+  .bg-70{ background-image: url(../img/Colonel_Yularen_TCG_2017_Quarter_1_Tournament_Kit.jpg);}
+  .bg-71{ background-image: url(../img/Anakin.png);}
+
+  
+  
+.gallery__prev,
+.gallery__next {
+  position: absolute;
+  top: 50%;
+  z-index: 4;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) translateY(-50%) scale(.8);
+  cursor: pointer;
+}
+.gallery__prev {
+  left: 0;
+}
+.gallery__next {
+  left: 100%;
+}
+.gallery:before,
+.gallery:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  z-index: 3;
+}
+.gallery:before {
+  left: 0;
+  background:  linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+.gallery:after {
+  right: 0;
+  background:  linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}

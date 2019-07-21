@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Squada One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(239, 248, 173);
+    background-color: rgb(224, 224, 224);
+}
+a{
+    color: white;
+
+}
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background-size: cover; 
+}
+section { 
+    height: 100vh; 
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+    padding: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-size: 4vw; 
+}
+section p {
+    margin: 0;
+    font-size:3vw;
+    padding: 3px;
+}
+section:first-of-type { 
+    font-size: 7vw;
+}
+section:nth-of-type(odd) { 
+    color: #fff;
+    background-color: #000;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4); 
+}
+section:nth-child(1) { 
+    background-image: url(../img/background4.jpg); 
+}
+section:nth-child(3) { 
+    background-image: url(../img/background12.png); 
+}
+section:nth-child(5) { 
+    background-image: url(../img/background13.jpg); 
+}
+section:nth-child(7) { 
+    background-image: url(../img/background9.jpg); 
+}
+section:nth-child(9) { 
+    background-image: url(../img/580b57fbd9996e24bc43bdb8.png); 
+}
+section:nth-child(11) { 
+    background-image: url(../img/background2.jpg); 
+}
+section:nth-child(13) { 
+    background-image: url(../img/background5.jpg); 
+}
